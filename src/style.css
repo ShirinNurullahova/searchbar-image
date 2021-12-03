@@ -1,0 +1,33 @@
+.main-app {
+  width: 80%;
+  margin: 0 auto;
+}
+.searchbar-wrapper {
+  padding: 20px;
+}
+.searchbar-wrapper p {
+  font-size: 25px;
+}
+.searchbar-wrapper input {
+  padding: 10px 20px;
+  font-size: 30px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  width: 100%;
+}
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.image-list__item {
+  width: 30%;
+  margin-bottom: 10px;
+  margin-right: 3.33%;
+}
+
+.image-list__item img {
+  width: 100%;
+}
